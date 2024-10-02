@@ -36,7 +36,7 @@ layer:
         - STDIN
         - STDOUT
         - STDERR
-        - Heap: 1024
+        - Heap: 65536
 
   define:
     - CMSIS_target_header: \"NUCLEO-F429ZI.h\"
