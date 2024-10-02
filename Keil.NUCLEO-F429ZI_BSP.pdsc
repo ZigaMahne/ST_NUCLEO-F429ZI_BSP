@@ -79,7 +79,7 @@
            orderForm   ="https://www.st.com/en/evaluation-tools/nucleo-f429zi.html#sample-buy">
       <description>STM32 Nucleo-144 development board with STM32F429ZI MCU</description>
       <image small="Images/nucleo-f429zi_small.png"
-             large="Images/nucleo-f429zi_large.png" public="true"/>
+             large="Images/nucleo-f429zi_large.png"/>
       <book category="overview"  name="https://www.st.com/en/evaluation-tools/nucleo-f429zi.html" title="NUCLEO-F429ZI Board"/>
       <book category="overview"  name="https://www.st.com/resource/en/data_brief/nucleo-f429zi.pdf" title="Data Brief"/>
       <book category="manual"    name="https://www.st.com/resource/en/user_manual/um1974-stm32-nucleo144-boards-mb1137-stmicroelectronics.pdf" title="User Manual"/>
