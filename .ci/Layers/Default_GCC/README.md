@@ -34,7 +34,7 @@ Refer to ["Configure STM32 Devices with CubeMX"](https://github.com/Open-CMSIS-P
 | Driver_USBD0          | USB_OTG_FS            | User USB connector (CN13)                     | CMSIS_USB_Device
 | CMSIS-Driver VIO      | GPIO                  | LEDs (LD3, LD1, LD2) and USER button (B1)     | CMSIS_VIO
 
-> Note: SPI1_MOSI pin on Arduino Connector is shared with RMII_CRS_DV pin, so only Ethernet is configured
+> Note: D11 (SPI_COPI) pin on Arduino Connector is unavailable, because it is used by the Ethernet configuration.
 
 Reference to [Arduino UNO connector description](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/ReferenceApplications.md#arduino-shield).
 
