@@ -10,9 +10,9 @@ The **STMicroelectronics NUCLEO-F429ZI Board Support Pack (BSP)**:
 
 - [Examples/Blinky](https://github.com/Open-CMSIS-Pack/ST_NUCLEO-F429ZI_BSP/tree/main/Examples/Blinky) shows the basic usage of this board.
 
-- [Board Layer](https://github.com/Open-CMSIS-Pack/ST_NUCLEO-F429ZI_BSP/tree/main/Layers/Default) for device-agnostic [Reference Applications](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/ReferenceApplications.md) that provides the following connections:
+- [Board Layer](https://github.com/Open-CMSIS-Pack/ST_NUCLEO-F429ZI_BSP/tree/main/Layers/Default) for device-agnostic [Reference Applications](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/ReferenceApplications.md) that implements these API interfaces:
 
-| Provided connection           | Description
+| Provided API Interface        | Description
 |:------------------------------|:------------------------------------------------------------------------------
 | CMSIS_ETH                     | CMSIS-Driver Ethernet connected to Ethernet RJ45 connector (CN14)
 | CMSIS_USART                   | CMSIS-Driver USART connected to ZIO pins D52..D53 (CN9)
