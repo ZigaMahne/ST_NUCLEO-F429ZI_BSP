@@ -22,7 +22,8 @@
       - add DWARF-5 debug information
       - add RTE_Components.h files
       - add dbgconf files for the Blinky example.
-      - updated RTE_Components.h file.	  
+      - updated RTE_Components.h file.
+      - updated vcpkg-configuration.json to use at least cmsis-toolbox version 2.90.
     </release>
   </releases>
 
